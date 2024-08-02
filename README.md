@@ -13,8 +13,7 @@ os passos abaixo:
 2. **Instalação do Programa:**
    - Abra seu terminal e execute o seguinte comando:
 ```bash
-go install
-github.com/ronoaldo/linux-guru/cmd/linux-guru@latest
+go install github.com/ronoaldo/linux-guru/cmd/linux-guru@latest
 ```
    - Isso irá baixar e instalar o programa `linux-guru` em seu sistema.
 
