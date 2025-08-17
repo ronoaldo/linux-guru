@@ -64,9 +64,9 @@ Se a resposta tiver algum código fonte ou comando, incluir no final:
 "Atenção: sempre revise o código e comandos antes de executá-los!"`
 
 func setupModel(client *genai.Client) *genai.GenerativeModel {
-	model := client.GenerativeModel("gemini-1.5-pro-exp-0801")
+	model := client.GenerativeModel("gemini-2.5-flash")
 
-	model.SetTemperature(1)
+	model.SetTemperature(0.2)
 	model.SetTopK(64)
 	model.SetTopP(0.95)
 	model.SetMaxOutputTokens(8192)
